@@ -1,13 +1,16 @@
 # Git Commands Cheatsheet
 
 ## user settings
+### global settings
 - change global user.name: `git confing --global user.name "userName"`
 - change global email: `git config --global user.email userEmail`
 
+### local settings
+**tip:** perform in a repo root folder
 - change local user.name: `git config user.name "userName"`
 - change local email: `git config user.email userEmail`
-    tip: perform in a repo root folder
 
+### checking settings
 - check setting: `git config --list`
 
 ## listing branches
